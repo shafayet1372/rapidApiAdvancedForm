@@ -1,0 +1,13 @@
+.maincontainer {
+  width: calc(100vw - 70vw);
+}
+.block {
+  min-height: 100%;
+}
+
+@media (max-width: 574px) {
+  .maincontainer {
+    width: calc(100vw - 15vw);
+    margin-top: 100px;
+  }
+}
